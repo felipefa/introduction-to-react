@@ -2,10 +2,10 @@ import React from 'react';
 
 import './App.css';
 
-import profile from './assets/teste.jpeg';
+import TechList from './components/TechList';
 
 const App = () => {
-  return <img width="200" src={profile} />;
+  return <TechList />;
 };
 
 export default App;
